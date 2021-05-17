@@ -1,0 +1,53 @@
+:root{
+	box-sizing: border-box;
+}
+
+*,
+::before,
+::after{
+	box-sizing: inherit;
+}
+
+body{
+	background-image: url(../img/background.jpg);
+	background-repeat: no-repeat;
+	background-size: 100vw;
+	font-family: sans-serif;
+}
+
+.container{
+	margin:2em auto;
+}
+
+.container, .main-image > img{
+	height:300px;
+	width:500px;
+}
+
+.content{
+	background-color: #fff;
+	margin-top:-.9em;
+	padding:1.4em;
+	padding-bottom:1.6em;
+	text-align: center;
+}
+
+.title{
+	border-bottom:1px dashed #ccc;
+	padding-bottom:.4em;
+}
+
+.description{
+	color:#aaa;
+	font-size: .8rem;
+	padding-bottom:1.2em;
+	text-align: justify;
+}
+
+a{
+	background-color: #f00;
+	border-radius: .2em;
+	color:#fff;
+	padding:.5em 1.5em;
+	text-decoration: none;
+}
