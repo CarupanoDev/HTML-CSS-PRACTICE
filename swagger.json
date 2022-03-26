@@ -145,7 +145,7 @@
           },
           "phone" : {
             "type" : "string",
-            "example" : "408-867-5309"
+            "example" : "408-959-5309"
           }
         },
         "type" : "object"
