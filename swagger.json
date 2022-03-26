@@ -142,7 +142,7 @@
           },
           "phone" : {
             "type" : "string",
-            "example" : "408-777-5309"
+            "example" : "408-777-5310"
           }
         },
         "type" : "object"
