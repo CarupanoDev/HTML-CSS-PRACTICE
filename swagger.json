@@ -142,7 +142,7 @@
           },
           "phone" : {
             "type" : "string",
-            "example" : "description"
+            "example" : "TEST"
           }
         },
         "type" : "object"
