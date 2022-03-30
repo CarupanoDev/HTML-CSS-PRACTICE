@@ -116,7 +116,7 @@
           },
           "name" : {
             "type" : "string",
-            "example" : "Widget Adapter"
+            "example" : "Widget"
           },
           "releaseDate" : {
             "type" : "string",
@@ -138,11 +138,11 @@
           "homePage" : {
             "type" : "string",
             "format" : "url",
-            "example" : "https://www.acme-corp.com"
+            "example" : "https://www.acme.com"
           },
           "phone" : {
             "type" : "string",
-            "example" : "TEST"
+            "example" : "description"
           }
         },
         "type" : "object"
