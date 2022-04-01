@@ -18,7 +18,7 @@
     "description" : "Secured Admin-only calls"
   }, {
     "name" : "developers",
-    "description" : "Operations available to regular developers"
+    "description" : "Operations availab to regular developers"
   } ],
   "paths" : {
     "/inventory" : {
