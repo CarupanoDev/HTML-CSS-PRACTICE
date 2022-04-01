@@ -138,7 +138,7 @@
           "homePage" : {
             "type" : "string",
             "format" : "url",
-            "example" : "https://www.acme-.c"
+            "example" : "https://www.acme-.com"
           },
           "phone" : {
             "type" : "string",
