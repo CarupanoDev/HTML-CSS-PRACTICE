@@ -133,7 +133,7 @@
         "properties" : {
           "name" : {
             "type" : "string",
-            "example" : "ACME"
+            "example" : "AE"
           },
           "homePage" : {
             "type" : "string",
