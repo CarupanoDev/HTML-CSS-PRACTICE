@@ -133,7 +133,7 @@
         "properties" : {
           "name" : {
             "type" : "string",
-            "example" : "ACME Corporation"
+            "example" : "ACME"
           },
           "homePage" : {
             "type" : "string",
