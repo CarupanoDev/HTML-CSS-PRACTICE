@@ -1,4 +1,5 @@
 
+
 ## Welcome to CVMonline repository!
 
 ## Content table
@@ -12,6 +13,8 @@
 - [:globe_with_meridians: Deploy](#globe_with_meridians-deploy)
     - [:globe_with_meridians: QA deploy](#globe_with_meridians-qa-deploy)
     - [:globe_with_meridians: Client deploy](#globe_with_meridians-client-deploy)
+- [:four_leaf_clover: Extras](#four_leaf_clover-extras)
+    - [:robot: Prototypes](#robot-prototypes)
 
 ## :star: Entorno de configuración
 
@@ -67,3 +70,13 @@
 - git push origin master
 - php artisan migrate
 - npm run dev
+
+## :four_leaf_clover: Extras
+
+### :robot: Prototypes
+
+    In order to see the project prototypes you must follow the next step:
+
+
+- Access `http://localhost/cvmonline/prototype/`
+
