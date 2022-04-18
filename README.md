@@ -33,11 +33,15 @@
     -       exit  
 
   ### :globe_with_meridians: Node configuration steps
-    -    `nvm install 6.17.1` 
-    -    `nvm use 6` 
-    -    `npm install`
-    -    `npm run dev`
-    -    `npm start`
+    - `nvm install 6.17.1` 
+     
+    - `nvm use 6` 
+    
+    - `npm install`
+   
+    - `npm run dev`
+     
+    - `npm start`
 
   ### :globe_with_meridians: Database configuration steps
 
