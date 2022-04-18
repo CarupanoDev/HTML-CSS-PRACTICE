@@ -4,8 +4,6 @@
 ## Content table
 
 - [:star:Entorno de configuración](#star-entorno-de-configuración)
-    - [:star2:Herramientas utilizadas](#star2-herramientas-utilizadas)
-    - [:hammer_and_wrench:Configuración del entorno](#hammer_and_wrench-configuración-del-entorno)
     - [:globe_with_meridians:Instalación de la aplicación](#globe_with_meridians-instalación-de-la-aplicación)
         - [:globe_with_meridians:Composer steps](#globe_with_meridians-composer-steps)
         - [:globe_with_meridians:Node configuration steps](#globe_with_meridians-node-configuration-steps)
@@ -16,15 +14,6 @@
     - [:globe_with_meridians:Client deploy](#globe_with_meridians-client-deploy)
 
 ## :star: Entorno de configuración
-
-### :star2: Herramientas utilizadas
-
-1. [Instalar Docker](https://www.docker.com/get-started) :whale:
-2. :cyclone:Clonar este proyecto: `git clone git@github.com:fjmn2001/cvmonline.git`
-
-### :hammer_and_wrench: Configuración del entorno
-
-- Crear un archivo de entorno local si es necesario:  `cp .env .env.example`:page_facing_up:
 
 ### :globe_with_meridians: Instalación de la aplicación
 - Luego de instalar las dependencias de PHP, debes ejecutar los siguientes comandos para completar la instalación:
