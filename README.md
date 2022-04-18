@@ -70,3 +70,11 @@
 - make deploy
 - nvm use 6
 - npm run dev
+
+### :globe_with_meridians: Client deploy
+
+- git pull fork master
+- git pull origin master
+- git push origin master
+- php artisan migrate
+- npm run dev
