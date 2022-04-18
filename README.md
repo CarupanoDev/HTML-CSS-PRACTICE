@@ -49,12 +49,12 @@
 
   ### :globe_with_meridians: Database configuration steps
 
-    -     sudo chmod -R 777 storage/  
-    -     configure database connection
-      	- user: root
-      	- pass: cvmonline
-      	- port: 33079
-      	- Por último copia y pega el contenido del archivo `mysql/cvmonline20211011.sq` en  la consola MySQL y ejecútalo.
+    - `sudo chmod -R 777 storage/`
+    - `configure database connection`
+      - `user: root`
+      - `pass: cvmonline`
+      - `port: 33079`
+      - Por último copia y pega el contenido del archivo `mysql/cvmonline20211011.sq` en  la consola MySQL y ejecútalo.
 
   ### :globe_with_meridians: Last steps
     - Asegúrate de tener instalada la versión 6 de Node y de tenerla, ejecuta el comando **nvm use 6**
