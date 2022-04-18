@@ -1,3 +1,4 @@
+
 ## Welcome to CVMonline repository!
 
 ## Content table
@@ -10,7 +11,9 @@
         - [:globe_with_meridians:Node configuration steps](#globe_with_meridians-node-configuration-steps)
         - [:globe_with_meridians:Database configuration steps](#globe_with_meridians-database-configuration-steps)
         - [:globe_with_meridians:Last steps](#globe_with_meridians-last-steps)
-
+- [:globe_with_meridians:Deploy](#globe_with_meridians-deploy)
+    - [:globe_with_meridians:QA deploy](#globe_with_meridians-qa-deploy)
+    - [:globe_with_meridians:Client deploy](#globe_with_meridians-client-deploy)
 
 ## :star: Entorno de configuración
 
@@ -26,36 +29,44 @@
 ### :globe_with_meridians: Instalación de la aplicación
 - Luego de instalar las dependencias de PHP, debes ejecutar los siguientes comandos para completar la instalación:
   ### :globe_with_meridians: Composer steps
-    - `make start`
-  
-    - `make login-php`
-  
-    - `php -d memory_limit=-1 /usr/local/bin/composer self-update 1.10.20`
-  
-    - `php -d memory_limit=-1 /usr/local/bin/composer install`
-  
-    - `exit`  
+- `make start`
 
-  ### :globe_with_meridians: Node configuration steps
-    - `nvm install 6.17.1` 
-     
-    - `nvm use 6` 
-    
-    - `npm install`
-   
-    - `npm run dev`
-     
-    - `npm start`
+- `make login-php`
 
-  ### :globe_with_meridians: Database configuration steps
+- `php -d memory_limit=-1 /usr/local/bin/composer self-update 1.10.20`
 
-    - `sudo chmod -R 777 storage/`
-    - `configure database connection`
-      - `user: root`
-      - `pass: cvmonline`
-      - `port: 33079`
-      - Por último copia y pega el contenido del archivo `mysql/cvmonline20211011.sq` en  la consola MySQL y ejecútalo.
+- `php -d memory_limit=-1 /usr/local/bin/composer install`
 
-  ### :globe_with_meridians: Last steps
-    - Asegúrate de tener instalada la versión 6 de Node y de tenerla, ejecuta el comando **nvm use 6**
-    - Por último, **npm run watch**
+- `exit`
+
+### :globe_with_meridians: Node configuration steps
+- `nvm install 6.17.1`
+
+- `nvm use 6`
+
+- `npm install`
+
+- `npm run dev`
+
+- `npm start`
+
+### :globe_with_meridians: Database configuration steps
+
+- `sudo chmod -R 777 storage/`
+- `configure database connection`
+- `user: root`
+- `pass: cvmonline`
+- `port: 33079`
+- Por último copia y pega el contenido del archivo `mysql/cvmonline20211011.sq` en  la consola MySQL y ejecútalo.
+
+### :globe_with_meridians: Last steps
+- Asegúrate de tener instalada la versión 6 de Node. De tenerla, ejecuta el comando **nvm use 6**
+- Por último, **npm run watch**
+
+## :globe_with_meridians: Deploy
+
+### :globe_with_meridians: QA deploy
+
+- make deploy
+- nvm use 6
+- npm run dev
