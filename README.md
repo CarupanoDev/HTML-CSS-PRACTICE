@@ -26,11 +26,15 @@
 ### :globe_with_meridians: Instalación de la aplicación
 - Luego de instalar las dependencias de PHP, debes ejecutar los siguientes comandos para completar la instalación:
   ### :globe_with_meridians: Composer steps
-    - 	    make start  
-    -       make login-php  
-    -	    php -d memory_limit=-1 /usr/local/bin/composer self-update 1.10.20  
-    -	    php -d memory_limit=-1 /usr/local/bin/composer install  
-    -       exit  
+    - `make start`
+  
+    - `make login-php`
+  
+    - `php -d memory_limit=-1 /usr/local/bin/composer self-update 1.10.20`
+  
+    - `php -d memory_limit=-1 /usr/local/bin/composer install`
+  
+    - `exit`  
 
   ### :globe_with_meridians: Node configuration steps
     - `nvm install 6.17.1` 
