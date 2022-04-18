@@ -79,4 +79,7 @@
 
 
 - Access `http://localhost/cvmonline/prototype/`
+- Enter credentials:
+  - admin: admin@gmail.com
+  - password: 123456
 
