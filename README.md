@@ -28,9 +28,9 @@
   ### :globe_with_meridians: Composer steps
     - 	    make start  
     -       make login-php  
-    -	     php -d memory_limit=-1 /usr/local/bin/composer self-update 1.10.20  
-    -	     php -d memory_limit=-1 /usr/local/bin/composer install  
-    -       exit  
+    -	    php -d memory_limit=-1 /usr/local/bin/composer self-update 1.10.20  
+    -	    php -d memory_limit=-1 /usr/local/bin/composer install  
+    -      exit  
 
   ### :globe_with_meridians: Node configuration steps
     -     nvm install 6.17.1 
