@@ -3,15 +3,15 @@
 
 ## Content table
 
-- [:star:Entorno de configuración](#star-entorno-de-configuración)
-    - [:globe_with_meridians:Instalación de la aplicación](#globe_with_meridians-instalación-de-la-aplicación)
-        - [:globe_with_meridians:Composer steps](#globe_with_meridians-composer-steps)
-        - [:globe_with_meridians:Node configuration steps](#globe_with_meridians-node-configuration-steps)
-        - [:globe_with_meridians:Database configuration steps](#globe_with_meridians-database-configuration-steps)
-        - [:globe_with_meridians:Last steps](#globe_with_meridians-last-steps)
-- [:globe_with_meridians:Deploy](#globe_with_meridians-deploy)
-    - [:globe_with_meridians:QA deploy](#globe_with_meridians-qa-deploy)
-    - [:globe_with_meridians:Client deploy](#globe_with_meridians-client-deploy)
+- [:star: Entorno de configuración](#star-entorno-de-configuración)
+    - [:globe_with_meridians: Instalación de la aplicación](#globe_with_meridians-instalación-de-la-aplicación)
+        - [:globe_with_meridians: Composer steps](#globe_with_meridians-composer-steps)
+        - [:globe_with_meridians: Node configuration steps](#globe_with_meridians-node-configuration-steps)
+        - [:globe_with_meridians: Database configuration steps](#globe_with_meridians-database-configuration-steps)
+        - [:globe_with_meridians: Last steps](#globe_with_meridians-last-steps)
+- [:globe_with_meridians: Deploy](#globe_with_meridians-deploy)
+    - [:globe_with_meridians: QA deploy](#globe_with_meridians-qa-deploy)
+    - [:globe_with_meridians: Client deploy](#globe_with_meridians-client-deploy)
 
 ## :star: Entorno de configuración
 
